@@ -6,46 +6,84 @@
 <title>STM SOFTWARE | Certificate Verification</title>
 
 <style>
-body{
+*{
     margin:0;
-    background:#ececf5;
-    font-family:Arial,Helvetica,sans-serif;
+    padding:0;
+    box-sizing:border-box;
 }
+
+body{
+    background:#ececf3;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .header{
     text-align:center;
-    font-size:42px;
-    color:#333;
-    margin:40px 0;
+    font-size:48px;
+    font-weight:300;
+    color:#3d3d3d;
+    margin:38px 0 34px;
+    letter-spacing:1px;
 }
+
 .card{
-    width:90%;
-    max-width:700px;
+    width:92%;
+    max-width:670px;
     margin:0 auto 40px;
-    background:#fff;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-    padding:40px 25px;
-    text-align:center;
+    background:#ffffff;
+    padding:48px 40px;
+    border-radius:3px;
+    box-shadow:0 2px 10px rgba(0,0,0,.12);
 }
+
 .valid{
-    color:#00a651;
-    font-size:36px;
-    font-weight:bold;
-    margin-bottom:35px;
+    color:#00A651;
+    font-size:38px;
+    font-weight:700;
+    margin-bottom:42px;
 }
+
 .title{
-    font-weight:bold;
-    font-size:22px;
-    margin-top:25px;
-    color:#444;
-}
-.value{
     font-size:20px;
+    font-weight:700;
+    color:#444;
+    margin-top:28px;
+}
+
+.value{
+    font-size:18px;
     color:#555;
     margin-top:8px;
     line-height:1.7;
 }
+
+@media (max-width:768px){
+
+.header{
+    font-size:42px;
+    margin:30px 0 28px;
+}
+
+.card{
+    width:94%;
+    padding:38px 22px;
+}
+
+.valid{
+    font-size:32px;
+}
+
+.title{
+    font-size:18px;
+}
+
+.value{
+    font-size:17px;
+}
+
+}
 </style>
+
 </head>
 
 <body>
@@ -54,7 +92,7 @@ body{
 
 <div class="card">
 
-<div class="valid">✅ Valid Certificate</div>
+<div class="valid">Valid Certificate</div>
 
 <div class="title">Certificate Number</div>
 <div class="value">LS-AD-2026-460009</div>
@@ -66,9 +104,7 @@ body{
 <div class="value">TAJGUL HIJRAN</div>
 
 <div class="title">Course Name</div>
-<div class="value">
-Lifting Supervisor (As Per ADNOC HSE-PSW-CP19)
-</div>
+<div class="value">Lifting Supervisor (As Per ADNOC HSE-PSW-CP19)</div>
 
 </div>
 
